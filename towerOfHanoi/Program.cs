@@ -130,13 +130,6 @@ namespace towerOfHanoi
                     towers[from].Pop();
                 }
             }
-            else
-            {
-                string text = "Rossz értéket adott meg!";
-                Console.SetCursorPosition(left + width / 2 - text.Length / 2, top + height + 4);
-                Console.Write(text);
-            }
-
         }
     }
 }
